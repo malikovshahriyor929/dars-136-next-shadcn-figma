@@ -1,7 +1,6 @@
 "use client";
 
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
-import { Calendar } from "@/components/ui/calendar";
 
 import {
   ChartConfig,
@@ -75,8 +74,6 @@ export function Charts() {
 }
 
 export function CalendarDemo() {
-  const [date, setDate] = useState<Date | undefined>(new Date());
-
   return (
     <img
       src="../../calendar.png"
