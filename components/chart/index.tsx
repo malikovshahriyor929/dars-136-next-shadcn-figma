@@ -78,10 +78,8 @@ export function CalendarDemo() {
   const [date, setDate] = useState<Date | undefined>(new Date());
 
   return (
-    <Calendar
-      mode="single"
-      selected={date}
-      onSelect={setDate}
+    <img
+      src="../../calendar.png"
       className="rounded-md border shadow !w-full"
     />
   );
